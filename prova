@@ -1,0 +1,12 @@
+ // Solicita que o usuário insira o nome
+        var nomeUsuario = prompt("Por favor, digite seu nome:");
+
+        // Verifica se o usuário inseriu um nome
+        if (nomeUsuario !== null && nomeUsuario !== "") {
+            // Usar o nome fornecido pelo usuário
+            alert("Olá, " + nomeUsuario + "! Bem-vindo(a) ao nosso sistema.");
+            // Outras ações usando o nome do usuário podem ser executadas aqui
+        } else {
+            // Caso o usuário não tenha inserido um nome válido
+            alert("Você precisa inserir um nome válido. Por favor, recarregue a página e tente novamente.");
+        }
